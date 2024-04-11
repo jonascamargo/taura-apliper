@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/spacing.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- CSS personalizações -->
+    <link rel="stylesheet" href="assets/css/style-main.css">
 
     <title>Apliper software</title>
 </head>
@@ -145,7 +147,7 @@
 
                 
                 <!-- tp-about-area-start -->
-                <div class="tp-about__area tp-about__pt-pb pt-100 pb-160">
+                <div class="tp-about__area tp-about__pt-pb pt-100 pb-100">
                     <div class="container">
                         <div class="row align-items-center">
 
@@ -210,13 +212,17 @@
 
 
                 <!-- tp-service-area-strat -->
-                <div class="tp-service-area pb-120 z-index">
+                <div class="tp-service-area pt-100 pb-100">
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-8 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
-                                <div class="tp-service-3-item mb-30 p-relative z-index" data-background="assets/img/service/service-3-bg.png">
+                                <div class="tp-service-3-item mb-30 p-relative z-index">
                                     <div class="tp-service-3-icon">
-                                        <img src="assets/img/service/sv-icon-3-1.png" alt="">
+                                        <svg width="66" height="53" viewBox="0 0 66 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.5323 8.40774C4.17742 10.9497 1 12.2206 1 13.8C1 15.3794 4.17742 16.6503 10.5323 19.1923L19.5194 22.7871C25.8742 25.329 29.0516 26.6 33 26.6C36.9484 26.6 40.1258 25.329 46.4806 22.7871L55.4677 19.1923C61.8226 16.6503 65 15.3794 65 13.8C65 12.2206 61.8226 10.9497 55.4677 8.40774L46.4806 4.8129C40.1258 2.27097 36.9484 1 33 1C29.9474 1 27.3556 1.7597 23.4 3.27909" stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                            <path d="M13.0516 20.2002L10.5323 21.2079C4.17742 23.7499 1 25.0208 1 26.6002C1 28.1795 4.17742 29.4505 10.5323 31.9925L19.5194 35.5873C25.8742 38.1292 29.0516 39.4002 33 39.4002C36.9484 39.4002 40.1258 38.1292 46.4806 35.5873L55.4677 31.9925C61.8226 29.4505 65 28.1795 65 26.6002C65 25.0208 61.8226 23.7499 55.4677 21.2079L52.9484 20.2002" stroke="CurrentColor" stroke-width="1.5"/>
+                                            <path d="M55.4677 44.7923C61.8226 42.2503 65 40.9794 65 39.4C65 37.8206 61.8226 36.5497 55.4677 34.0077L52.9484 33M13.0516 33L10.5323 34.0077C4.17742 36.5497 1 37.8206 1 39.4C1 40.9794 4.17742 42.2503 10.5323 44.7923L19.5194 48.3871C25.8742 50.929 29.0516 52.2 33 52.2C36.0526 52.2 38.6444 51.4403 42.6 49.9209" stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                        </svg>
                                     </div>
 
                                     <div class="tp-service-3-content">
@@ -324,7 +330,7 @@
 
 
                 <!-- tp-rank-area-start -->
-                <div class="tp-rank__area pb-200">
+                <div class="tp-rank__area pt-100 pb-100">
                     <div class="container">
 
                         <div class="row">
@@ -423,46 +429,34 @@
 
 
                 <!-- barra de serviços -->
-                <div class="tp-servicos-area p-relative pb-140">
+                <div class="tp-servicos-area p-relative pt-100 pb-100">
                     <img class="tp-counter-shape-2" src="assets/img/counter/counter-shape-2.png" alt="">
 
                     <img class="tp-counter-shape-3" src="assets/img/counter/counter-shape-1.png" alt="">
                     
                     <div class="container">
-                        <ul class="row gx-0">
+                        <ul class="row gx-0 barra-servicos">
                             <li class="col">
                                 <div class="item">
-                                    <p>
-                                        <i>Clientes</i>
-                                        Atendidos
-                                    </p>
+                                    <i>Clientes</i>Atendidos
                                 </div>
                             </li>
 
                             <li class="col">
                                 <div class="item">
-                                    <p>
-                                        <i>Horas de</i>
-                                        Suporte
-                                    </p>
+                                    <i>Horas de</i>Suporte
                                 </div>
                             </li>
 
                             <li class="col">
                                 <div class="item">
-                                    <p>
-                                        <i>Emissão de</i>
-                                        Boletos
-                                    </p>
+                                    <i>Emissão de</i>Boletos
                                 </div>
                             </li>
 
                             <li class="col">
                                 <div class="item">
-                                    <p>
-                                        <i>Horas de</i>
-                                        Implantação
-                                    </p>
+                                    <i>Horas de</i>Implantação
                                 </div>
                             </li>
                         </ul>
@@ -592,7 +586,292 @@
                 </div>
 
 
-                <!-- O que aspessoas estão falando sobre nós . -->
+                <!-- tp-testimonial-area-start -->
+                <div class="tp-testimonial-2-area pt-110 pb-120" data-background="assets/img/testimonial/testi-bg-2-1.png">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-8">
+                                <div class="tp-testimonial-2-section-box mb-15 text-center">
+                                    <h3 class="tp-section-title-lg text-white">O que as <span>pessoas</span><br>estão falando <span>sobre nós</span>.</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="tp-testimonial-2-section">
+                                    <div class="tp-testimonial-2-slider-active">
+                                        <div>
+                                            <div class="tp-testimonial-2-item p-relative wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
+                                                <div class="tp-testimonial-2-border-shape">
+                                                    <img src="assets/img/testimonial/BODY.png" alt="">
+                                                </div>
+
+                                                <div class="tp-testimonial-2-star">
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+
+                                                <div class="tp-testimonial-2-content">
+                                                    <p>"Is it possible to Love your credit card processor? with Softec, yes!"</p>
+                                                </div>
+
+                                                <div class="tp-testimonial-2-author d-flex align-items-center">
+                                                    <div class="tp-testimonial-2-img">
+                                                        <img src="assets/img/testimonial/testi-icon-2-1.png" alt="">
+                                                    </div>
+
+                                                    <div class="tp-testimonial-2-author-info">
+                                                        <h5>Lana Rey</h5>
+                                                        <span>Founder & Leader</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <div class="tp-testimonial-2-item p-relative wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
+                                                <div class="tp-testimonial-2-border-shape">
+                                                    <img src="assets/img/testimonial/BODY.png" alt="">
+                                                </div>
+
+                                                <div class="tp-testimonial-2-star">
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+                                                    
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+                                                    
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+                                                    
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+                                                    
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+                                                    
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+
+                                                <div class="tp-testimonial-2-content">
+                                                    <p>"Is it possible to Love your credit card processor? with Softec, yes!"</p>
+                                                </div>
+
+                                                <div class="tp-testimonial-2-author d-flex align-items-center">
+                                                    <div class="tp-testimonial-2-img">
+                                                        <img src="assets/img/testimonial/testi-icon-2-2.png" alt="">
+                                                    </div>
+
+                                                    <div class="tp-testimonial-2-author-info">
+                                                        <h5>J. McGhee</h5>
+                                                        <span>Founder & Leader</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <div class="tp-testimonial-2-item p-relative wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
+                                                <div class="tp-testimonial-2-border-shape">
+                                                    <img src="assets/img/testimonial/BODY.png" alt="">
+                                                </div>
+
+                                                <div class="tp-testimonial-2-star">
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                                
+                                                <div class="tp-testimonial-2-content">
+                                                    <p>"Is it possible to Love your credit card processor? with Softec, yes!"</p>
+                                                </div>
+
+                                                <div class="tp-testimonial-2-author d-flex align-items-center">
+                                                    <div class="tp-testimonial-2-img">
+                                                        <img src="assets/img/testimonial/testi-icon-2-3.png" alt="">
+                                                    </div>
+
+                                                    <div class="tp-testimonial-2-author-info">
+                                                        <h5>Michael H.</h5>
+                                                        <span>Founder & Leader</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <div class="tp-testimonial-2-item p-relative wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
+                                                <div class="tp-testimonial-2-border-shape">
+                                                    <img src="assets/img/testimonial/BODY.png" alt="">
+                                                </div>
+
+                                                <div class="tp-testimonial-2-star">
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+                                                    
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+
+                                                    <span>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8 0L10.472 5.26604L16 6.11567L12 10.2124L12.944 16L8 13.266L3.056 16L4 10.2124L0 6.11567L5.528 5.26604L8 0Z" fill="#FFCF55"/>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+
+                                                <div class="tp-testimonial-2-content">
+                                                    <p>"Is it possible to Love your credit card processor? with Softec, yes!"</p>
+                                                </div>
+
+                                                <div class="tp-testimonial-2-author d-flex align-items-center">
+                                                    <div class="tp-testimonial-2-img">
+                                                        <img src="assets/img/testimonial/testi-icon-2-1.png" alt="">
+                                                    </div>
+
+                                                    <div class="tp-testimonial-2-author-info">
+                                                        <h5>Lana Rey</h5>
+                                                        <span>Founder & Leader</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="banner-aparelo-contato">
+                    <div class="container">
+                        
+                        <div class="wrap">
+                            <h3 class="tp-section-title">Descomplique com a <span>Apliper</span></h3>
+
+                            <p>Descomplique seu negócio com um sistema que possui um atendimento preferencial e humanizado.</p>
+
+                            <div class="tp-about__btn">
+                                <a class="tp-btn tp-btn-hover alt-color-black" href="precos.html">
+                                    <span>Fale agora com a gente</span>
+                                    <b style="top: 325.203px; left: 228.5px;"></b>
+                                </a>
+                            </div>
+                        </div>
+
+                        <img src="" alt="" class="img-float img-1">
+                        <img src="" alt="" class="img-float img-2">
+
+                    </div>
+                </div>
 
 
                 <!-- tp-price-area-start -->
@@ -830,80 +1109,79 @@
             
 
             <footer>
-            <!-- tp-footer-area-start -->
-            <div class="tp-footer__pl-pr grey-bg-2 pt-105">
-                <div class="tp-footer__area p-relative tp-footer__tp-border-bottom">
-                    <div class="tp-footer__shape-1 d-none d-xxl-block">
-                        <img src="assets/img/footer/footer-inner-1.png" alt="">
-                    </div>
+                <!-- tp-footer-area-start -->
+                <div class="tp-footer__pl-pr grey-bg-2 pt-105">
+                    <div class="tp-footer__area p-relative tp-footer__tp-border-bottom">
+                        <div class="tp-footer__shape-1 d-none d-xxl-block">
+                            <img src="assets/img/footer/footer-inner-1.png" alt="">
+                        </div>
 
-                    <div class="tp-footer__shape-2 d-none d-xxl-block">
-                        <img src="assets/img/footer/footer-inner-2.png" alt="">
-                    </div>
+                        <div class="tp-footer__shape-2 d-none d-xxl-block">
+                            <img src="assets/img/footer/footer-inner-2.png" alt="">
+                        </div>
 
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-3 col-lg-3 col-md-6 pb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
-                                <div class="tp-footer__widget tp-footer__input-inner footer-widget-3 footer-col-3-1">
-                                    <div class="tp-footer__logo mb-25">
-                                            <a href="index.html">
-                                            <img src="assets/img/logo/logo-black.png" alt="">
-                                            </a>
-                                    </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-3 col-lg-3 col-md-6 pb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
+                                    <div class="tp-footer__widget tp-footer__input-inner footer-widget-3 footer-col-3-1">
+                                        <div class="tp-footer__logo mb-25">
+                                                <a href="index.html">
+                                                <img src="assets/img/logo/logo-black.png" alt="">
+                                                </a>
+                                        </div>
 
-                                    <div class="tp-footer__social-link">
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-3 col-lg-3 col-md-6 pb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
-                                <div class="tp-footer__widget tp-footer__widget-inner footer-widget-3 footer-col-3-2">
-                                    <h4 class="tp-footer__widget-title">Menu</h4>
-
-                                    <div class="tp-footer__content">
-                                        <ul>
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="sobre.html">Sobre</a></li>
-                                            <li><a href="produtos.html">Produtos</a></li>
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="contato.html">Contato</a></li>
-                                        </ul>
+                                        <div class="tp-footer__social-link">
+                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="col-xl-4 col-lg-4 col-md-6 pb-30 z-index-3 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
-                                <div class="tp-footer__widget tp-footer__widget-inner footer-widget-3 footer-col-3-2">
-                                    <h4 class="tp-footer__widget-title">Contato</h4>
+                                <div class="col-xl-3 col-lg-3 col-md-6 pb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
+                                    <div class="tp-footer__widget tp-footer__widget-inner footer-widget-3 footer-col-3-2">
+                                        <h4 class="tp-footer__widget-title">Menu</h4>
 
-                                    <div class="tp-footer__content">
-                                        <h5 class="tp-footer__sub-title">Endereço:</h5>
-                                        Avenida Paulo Broilo, 543 - sala 50 Centro - Farroupilha/RS
-
-                                        <h5 class="tp-footer__sub-title">E-mail:</h5>
-                                        <a href="mailto:suporte1@apliper.com.br">suporte1@apliper.com.br</a>
-                                        <a href="mailto:comercial@apliper.com.br">comercial@apliper.com.br</a>
-
-                                        <h5 class="tp-footer__sub-title">Fone:</h5>
-                                        <a href="tel:+5432616740">(54) 3261.6740</a>
-                                        <a href="tel:+5432681728">(54) 3268.1728</a>
-                                        <a href="tel:+54981291616">(54) 98129.1616</a>
+                                        <div class="tp-footer__content">
+                                            <ul>
+                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="sobre.html">Sobre</a></li>
+                                                <li><a href="produtos.html">Produtos</a></li>
+                                                <li><a href="blog.html">Blog</a></li>
+                                                <li><a href="contato.html">Contato</a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            
-                            <div class="col-xl-4 col-lg-4 col-md-6 pb-30 z-index-3 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
-                                <img src="" alt="">
+
+                                <div class="col-xl-4 col-lg-4 col-md-6 pb-30 z-index-3 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
+                                    <div class="tp-footer__widget tp-footer__widget-inner footer-widget-3 footer-col-3-2">
+                                        <h4 class="tp-footer__widget-title">Contato</h4>
+
+                                        <div class="tp-footer__content">
+                                            <h5 class="tp-footer__sub-title">Endereço:</h5>
+                                            Avenida Paulo Broilo, 543 - sala 50 Centro - Farroupilha/RS
+
+                                            <h5 class="tp-footer__sub-title">E-mail:</h5>
+                                            <a href="mailto:suporte1@apliper.com.br">suporte1@apliper.com.br</a>
+                                            <a href="mailto:comercial@apliper.com.br">comercial@apliper.com.br</a>
+
+                                            <h5 class="tp-footer__sub-title">Fone:</h5>
+                                            <a href="tel:+5432616740">(54) 3261.6740</a>
+                                            <a href="tel:+5432681728">(54) 3268.1728</a>
+                                            <a href="tel:+54981291616">(54) 98129.1616</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xl-4 col-lg-4 col-md-6 pb-30 z-index-3 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
+                                    <img src="" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- tp-footer-area-end -->
             </footer>
 
         </div>
