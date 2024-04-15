@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/custom-animation.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/spacing.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- CSS personalizações -->
+    <link rel="stylesheet" href="assets/css/style-main.css">
+
+    <title>Apliper software</title>
+</head>
+
+<body>
+    
+    <!-- preloader -->
+    <div id="preloader">
+        <div class="preloader">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <!-- back-to-top-start  -->
+    <button class="scroll-top scroll-to-target" data-target="html">
+        <i class="far fa-angle-double-up"></i>
+    </button>
+
+    <!-- search popup start -->
+    <div class="search__popup">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12">
+                    <div class="search__wrapper">
+                        <div class="search__top d-flex justify-content-between align-items-center">
+                            <div class="search__logo">
+                                <a href="home-main.html">
+                                    <img src="assets/img/logo/logo-white.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="search__close">
+                                <button type="button" class="search__close-btn search-close-btn">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                 
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="search__form">
+                            <form action="#">
+                                <div class="search__input">
+                                    <input class="search-input-field" type="text" placeholder="Type here to search...">
+                                    
+                                    <span class="search-focus-border"></span>
+
+                                    <button type="submit">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg> 
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+
+            <main>
+
+                <!-- capa pagina -->
+                <div class="page-cover page__blog p-relative">
+                    <div class="p-relative z-index fix">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="about-banner-content z-index-5">
+                                        <h4 class="about-banner-title" data-parallax='{"y": 1000, "smoothness": 10}'>
+                                            <span>Blog</span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- blog-grid-area-start -->
+                <div class="blog-grid-area pt-100 pb-100">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="blog-grid-arrow p-relative">
+                                    <div class="grid-next d-none d-sm-block">
+                                        <button>
+                                            <i class="far fa-angle-left"></i>
+
+                                            <svg width="36" height="100" viewBox="0 0 36 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.99999 14C0 7.5 0.5 3.5 0 0L-0.000484467 99.5C-0.000415802 96.7234 1.00003 88 23 71.5C44.9999 55 32.5 37.1667 24 30.5C19.8333 27.1667 9.48375 19.8289 4.99999 14Z" fill="white"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+
+                                    <div class="grid-prev d-none d-sm-block">
+                                        <button>
+                                            <i class="far fa-angle-right"></i>
+
+                                            <svg width="36" height="100" viewBox="0 0 36 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M30.3164 14C35.3164 7.5 34.8164 3.5 35.3164 0L35.3169 99.5C35.3168 96.7234 34.3164 88 12.3164 71.5C-9.68354 55 2.81642 37.1667 11.3164 30.5C15.4831 27.1667 25.8327 19.8289 30.3164 14Z" fill="white"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+
+                                    <div class="swiper-container blog-grid-slider-active">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="blog-grid-slider blog-grid-slider-bg d-flex align-items-center blog-grid-slider-height" data-background="assets/img/blog/inner-blog-1.png">
+                                                    <div class="blog-grid-slider-wrapper">
+                                                        <div class="blog-grid-slider-meta">
+                                                            <span class="child-one">Apliper Software</span>
+                                                            <span class="child-two">28 de Abril, 2024</span>
+                                                        </div>
+
+                                                        <div class="blog-grid-slider-title-box">
+                                                            <h4 class="blog-grid-slider-title">
+                                                                <a href="blog-details.html">Como os chatbots podem ajudá-lo gerir mais vendas</a>
+                                                            </h4>
+
+                                                            <p>
+                                                                Lorem ipsum Lorem ipsum dolor sit amet, consectetuer
+                                                                adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                                                                ut laoreet dolore magna Lorem [...]
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="tp-blog-author-info-box blog-grid-avata-box d-flex align-items-center">
+                                                            <div class="tp-blog-avata">
+                                                                <img src="assets/img/blog/blog-avatar.png" alt="">
+                                                            </div>
+
+                                                            <div class="tp-blog-author-info">
+                                                                <h5>Nome</h5>
+                                                                <span>Cargo</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="swiper-slide">
+                                                <div class="blog-grid-slider blog-grid-slider-bg d-flex align-items-center blog-grid-slider-height" data-background="assets/img/blog/inner-blog-1.png">
+                                                    <div class="blog-grid-slider-wrapper">
+                                                        <div class="blog-grid-slider-meta">
+                                                            <span class="child-one">Apliper Software</span>
+                                                            <span class="child-two">28 de Abril, 2024</span>
+                                                        </div>
+
+                                                        <div class="blog-grid-slider-title-box">
+                                                            <h4 class="blog-grid-slider-title">
+                                                                <a href="blog-details.html">Como os chatbots podem ajudá-lo gerir mais vendas</a>
+                                                            </h4>
+
+                                                            <p>
+                                                                Lorem ipsum Lorem ipsum dolor sit amet, consectetuer
+                                                                adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                                                                ut laoreet dolore magna Lorem [...]
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="tp-blog-author-info-box blog-grid-avata-box d-flex align-items-center">
+                                                            <div class="tp-blog-avata">
+                                                                <img src="assets/img/blog/blog-avatar.png" alt="">
+                                                            </div>
+
+                                                            <div class="tp-blog-author-info">
+                                                                <h5>Nome</h5>
+                                                                <span>Cargo</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Portfolio Start-->
+                <div class="portfolio blog-grid-inner mb-80">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="tp-about__section-box text-center mb-40">
+                                    <h3 class="tp-section-title">Nossas últimas <span>Notícias e Artigos.</span></h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="portfolio-filter masonary-menu text-center mb-35">
+                                    <button data-filter="*" class="active"><span>Todos</span></button>
+                                    <button data-filter=".tecnologia"><span>Tecnologia</span></button>
+                                    <button data-filter=".desenvolvimento"><span>Desenvolvimento</span></button>
+                                    <button data-filter=".software"><span>Software</span></button>
+                                    <button data-filter=".atualidades"><span>Atualidades</span></button>
+                                    <button data-filter=".noticias"><span>Notícias</span></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row grid blog-grid-inner">
+                            <div class="col-xl-4 col-lg-6 col-md-6 mb-30 grid-item tecnologia desenvolvimento">
+                                <div class="tp-blog-item">
+                                    <div class="tp-blog-thumb fix">
+                                        <a href="blog-details.html"><img src="assets/img/blog/blog-post-thumb-2.jpg" alt=""></a>
+                                    </div>
+
+                                    <div class="tp-blog-content">
+                                        <div class="tp-blog-meta d-flex align-items-center">
+                                            <div class="tp-blog-category category-color-1">
+                                                <span>Apliper Software</span>
+                                            </div>
+
+                                            <div class="tp-blog-date">
+                                                <span>28 de Abril, 2024</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="tp-blog-title-box">
+                                            <a class="tp-blog-title-sm" href="blog-details.html">Como os chatbots podem ajudá-lo gerir mais vendas</a>
+                                        </div>
+
+                                        <div class="tp-blog-author-info-box d-flex align-items-center">
+                                            <div class="tp-blog-avata">
+                                                <img src="assets/img/blog/blog-avatar.png" alt="">
+                                            </div>
+
+                                            <div class="tp-blog-author-info">
+                                                <h5>Nome</h5>
+                                                <span>Cargo</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-6 col-md-6 mb-30 grid-item software desenvolvimento">
+                                <div class="tp-blog-item">
+                                    <div class="tp-blog-thumb fix">
+                                        <a href="blog-details.html"><img src="assets/img/blog/blog-post-thumb-2.jpg" alt=""></a>
+                                    </div>
+
+                                    <div class="tp-blog-content">
+                                        <div class="tp-blog-meta d-flex align-items-center">
+                                            <div class="tp-blog-category category-color-1">
+                                                <span>Apliper Software</span>
+                                            </div>
+
+                                            <div class="tp-blog-date">
+                                                <span>28 de Abril, 2024</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="tp-blog-title-box">
+                                            <a class="tp-blog-title-sm" href="blog-details.html">Como os chatbots podem ajudá-lo gerir mais vendas</a>
+                                        </div>
+
+                                        <div class="tp-blog-author-info-box d-flex align-items-center">
+                                            <div class="tp-blog-avata">
+                                                <img src="assets/img/blog/blog-avatar.png" alt="">
+                                            </div>
+
+                                            <div class="tp-blog-author-info">
+                                                <h5>Nome</h5>
+                                                <span>Cargo</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-6 col-md-6 mb-30 grid-item tecnologia atualidades noticias">
+                                <div class="tp-blog-item">
+                                    <div class="tp-blog-thumb fix">
+                                        <a href="blog-details.html"><img src="assets/img/blog/blog-post-thumb-2.jpg" alt=""></a>
+                                    </div>
+
+                                    <div class="tp-blog-content">
+                                        <div class="tp-blog-meta d-flex align-items-center">
+                                            <div class="tp-blog-category category-color-1">
+                                                <span>Apliper Software</span>
+                                            </div>
+
+                                            <div class="tp-blog-date">
+                                                <span>28 de Abril, 2024</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="tp-blog-title-box">
+                                            <a class="tp-blog-title-sm" href="blog-details.html">Como os chatbots podem ajudá-lo gerir mais vendas</a>
+                                        </div>
+
+                                        <div class="tp-blog-author-info-box d-flex align-items-center">
+                                            <div class="tp-blog-avata">
+                                                <img src="assets/img/blog/blog-avatar.png" alt="">
+                                            </div>
+
+                                            <div class="tp-blog-author-info">
+                                                <h5>Nome</h5>
+                                                <span>Cargo</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-6 col-md-6 mb-30 grid-item tecnologia noticias">
+                                <div class="tp-blog-item">
+                                    <div class="tp-blog-thumb fix">
+                                        <a href="blog-details.html"><img src="assets/img/blog/blog-post-thumb-2.jpg" alt=""></a>
+                                    </div>
+
+                                    <div class="tp-blog-content">
+                                        <div class="tp-blog-meta d-flex align-items-center">
+                                            <div class="tp-blog-category category-color-1">
+                                                <span>Apliper Software</span>
+                                            </div>
+
+                                            <div class="tp-blog-date">
+                                                <span>28 de Abril, 2024</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="tp-blog-title-box">
+                                            <a class="tp-blog-title-sm" href="blog-details.html">Como os chatbots podem ajudá-lo gerir mais vendas</a>
+                                        </div>
+
+                                        <div class="tp-blog-author-info-box d-flex align-items-center">
+                                            <div class="tp-blog-avata">
+                                                <img src="assets/img/blog/blog-avatar.png" alt="">
+                                            </div>
+
+                                            <div class="tp-blog-author-info">
+                                                <h5>Nome</h5>
+                                                <span>Cargo</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-6 col-md-6 mb-30 grid-item desenvolvimento atualidades">
+                                <div class="tp-blog-item">
+                                    <div class="tp-blog-thumb fix">
+                                        <a href="blog-details.html"><img src="assets/img/blog/blog-post-thumb-2.jpg" alt=""></a>
+                                    </div>
+
+                                    <div class="tp-blog-content">
+                                        <div class="tp-blog-meta d-flex align-items-center">
+                                            <div class="tp-blog-category category-color-1">
+                                                <span>Apliper Software</span>
+                                            </div>
+
+                                            <div class="tp-blog-date">
+                                                <span>28 de Abril, 2024</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="tp-blog-title-box">
+                                            <a class="tp-blog-title-sm" href="blog-details.html">Como os chatbots podem ajudá-lo gerir mais vendas</a>
+                                        </div>
+
+                                        <div class="tp-blog-author-info-box d-flex align-items-center">
+                                            <div class="tp-blog-avata">
+                                                <img src="assets/img/blog/blog-avatar.png" alt="">
+                                            </div>
+
+                                            <div class="tp-blog-author-info">
+                                                <h5>Nome</h5>
+                                                <span>Cargo</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- banner -->
+                <div class="banner-descomplica verde pb-100">
+                    <div class="container">
+                        
+                        <div class="wrap">
+                            <h3 class="tp-section-title">Descomplique com a <span>Apliper</span></h3>
+
+                            <p>Descomplique seu negócio com um sistema que possui um atendimento preferencial e humanizado.</p>
+
+                            <div class="tp-about__btn">
+                                <a class="tp-btn tp-btn-hover alt-color-black" href="precos.html">
+                                    <span>Fale agora com a gente</span>
+                                    <b style="top: 325.203px; left: 228.5px;"></b>
+                                </a>
+                            </div>
+                        </div>
+
+                        <img src="" alt="" class="img-float img-1">
+                        <img src="" alt="" class="img-float img-2">
+
+                    </div>
+                </div>
+
+            </main>
+
+            <footer>
+                <!-- tp-footer-area-start -->
+                <div class="tp-footer__pl-pr pt-100">
+                    <div class="tp-footer__area p-relative tp-footer__tp-border-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-3 col-lg-3 col-md-6 pb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
+                                    <div class="tp-footer__widget tp-footer__input-inner footer-widget-3 footer-col-3-1">
+                                        <div class="tp-footer__logo mb-25">
+                                                <a href="index.html">
+                                                <img src="assets/img/logo/logo-black.png" alt="">
+                                                </a>
+                                        </div>
+
+                                        <div class="tp-footer__social-link">
+                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-lg-3 col-md-6 pb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
+                                    <div class="tp-footer__widget tp-footer__widget-inner footer-widget-3 footer-col-3-2">
+                                        <h4 class="tp-footer__widget-title">Menu</h4>
+
+                                        <div class="tp-footer__content">
+                                            <ul>
+                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="sobre.html">Sobre</a></li>
+                                                <li><a href="produtos.html">Produtos</a></li>
+                                                <li><a href="blog.html">Blog</a></li>
+                                                <li><a href="contato.html">Contato</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-4 col-lg-4 col-md-6 pb-30 z-index-3 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
+                                    <div class="tp-footer__widget tp-footer__widget-inner footer-widget-3 footer-col-3-2">
+                                        <h4 class="tp-footer__widget-title">Contato</h4>
+
+                                        <div class="tp-footer__content">
+                                            <div>
+                                                <h5 class="tp-footer__sub-title">Endereço:</h5>
+                                                <span>Avenida Paulo Broilo, 543 - sala 50 Centro - Farroupilha/RS</span>
+                                            </div>
+
+                                            <div>
+                                                <h5 class="tp-footer__sub-title">E-mail:</h5>
+                                                <a href="mailto:suporte1@apliper.com.br">suporte1@apliper.com.br</a>
+                                                <a href="mailto:comercial@apliper.com.br">comercial@apliper.com.br</a>
+                                            </div>
+
+                                            <div>
+                                                <h5 class="tp-footer__sub-title">Fone:</h5>
+                                                <a href="tel:+5432616740" class="footer-link">(54) 3261.6740</a>
+                                                <a href="tel:+5432681728" class="footer-link">(54) 3268.1728</a>
+                                                <a href="tel:+54981291616" class="footer-link">(54) 98129.1616</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+
+    <!-- JS here -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/waypoints.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/magnific-popup.js"></script>
+    <script src="assets/js/counterup.js"></script>
+    <script src="assets/js/nice-select.js"></script>
+    <script src="assets/js/swiper-bundle.js"></script>
+    <script src="assets/js/meanmenu.js"></script>
+    <script src="assets/js/tilt.jquery.js"></script>
+    <script src="assets/js/isotope-pkgd.js"></script>
+    <script src="assets/js/imagesloaded-pkgd.js"></script>
+    <script src="assets/js/ajax-form.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/ScrollSmoother.min.js"></script>
+    <script src="assets/js/split-text.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
