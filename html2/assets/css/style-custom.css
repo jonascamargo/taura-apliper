@@ -200,6 +200,7 @@
 /* --- botao branco */
 .alt-color-white {
     background-color: #fff;
+    border-color: var(--spliper-cor-green);
 }
 .alt-color-white span {
     color: var(--spliper-cor-green);
@@ -258,10 +259,40 @@
 
 /* ///// HOME  */
 
+/* --- HOME / secao hero */
+.tp-hero-title-3 {
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 100%;
+}
+
+.tp-hero-title-box p {
+    font-size: 18px;
+    color: #000;
+}
+
+.tp-hero-area .tp-hero-3-wrapper {
+    margin-bottom: -120px;
+}
+
 
 /* --- HOME / secao sobre */
 .tp-about__area {
-    margin-top: -120px;
+    margin-top: -30px;
+}
+@media (max-width: 767px) {
+    .tp-about__area {
+        margin-top: 0;
+    }
+    .tp-about__area .container {
+        margin-top: 90px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px), only screen and (min-width: 992px) and (max-width: 1199px) {
+    .tp-about__section-box p {
+        display: inherit;
+    }
 }
 
 .tp-about__img-wrapper {
@@ -283,12 +314,16 @@
     top: 5%;
     left: 10%;
     filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.3));
+    
+    animation: bubbleFade-toLeft 2s forwards infinite alternate;
 }
-.tp-about__img-wrapper .img-anima.bolaGreen {
+.tp-about__img-wrapper .img-anima.bolaGreen.i1 {
     width: 100px;
     bottom: 20%;
     right: 10%;
     filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.4));
+
+    animation: bubbleFade-toRight 4s forwards infinite alternate;
 }
 .tp-about__img-wrapper .img-anima.bolaYellow {
     width: 150px;
@@ -346,6 +381,8 @@
 
 
 /* --- HOME / secao software */
+.software__area {}
+
 .softBloks {
     position: relative;
 }
@@ -354,30 +391,41 @@
     z-index: 2;
 }
 
-.softBloks .img-anima.bolhaVerde,
-.softBloks .img-anima.bolaGreen,
-.softBloks .img-anima.bolaYellow {
+.software__area .img-anima.bolhaVerde,
+.software__area .img-anima.bolaGreen,
+.software__area .img-anima.bolaYellow {
     position: absolute;
 }
-.softBloks .img-anima.bolhaVerde {
+.software__area .img-anima.bolhaVerde {
     width: 300px;
     z-index: 0;
     bottom: -40%;
     right: 20%;
 }
-.softBloks .img-anima.bolaGreen {
+.software__area .img-anima.bolaGreen {
     width: 40px;
     top: -20%;
     right: 60%;
 }
-.softBloks .img-anima.bolaYellow {
+.software__area .img-anima.bolaYellow {
     filter: blur(5px);
     width: 80px;
     bottom: -20%;
     left: -15%;
 }
 
-
+@media (max-width: 991px) {
+    .software__area .img-anima.bolhaVerde {
+        bottom: 0;
+    }
+    .software__area .img-anima.bolaGreen {
+        top: 0;
+        right: 60%;
+    }
+    .software__area .img-anima.bolaYellow {
+        bottom: 20%;
+    }
+}
 
 .tp-rank__item {
     min-width: 130px;
@@ -631,4 +679,373 @@
     font-size: 20px;
 
     display: block;
+}
+
+
+
+/* ///// SOBRE */
+
+/* --- SOBRE / secao estrutura */
+.estrutura-item {
+    padding-bottom: var(--bs-gutter-x);
+}
+.estrutura-item img {
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+
+/* --- SOBRE / secao socios */
+.sobre-socios {
+    background: var(--spliper-gradient-bl_ye-hor);
+}
+
+.sobre-socios .tp-section-subtitle {
+    margin-bottom: 20px;
+}
+.sobre-socios .tp-section-subtitle:before {
+    background-color: #fff;
+}
+
+.sobre-socios .container p {
+    color: #000;
+}
+
+
+.item-socio {
+    margin-bottom: 40px;
+}
+
+.item-socio img {
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+.sobre-socios .container {
+    position: relative;
+}
+.sobre-socios .container .imgAnime {
+    position: absolute;
+    z-index: 0;
+    width: 60px;
+}
+.sobre-socios .container .bVerde {
+    left: 25%;
+    bottom: -5%;
+}
+.sobre-socios .container .bAmarela {
+    filter: blur(5px) drop-shadow(0 30px 20px rgba(0, 0, 0, 0.4));
+    left: 10%;
+    bottom: 17%;
+}
+
+@media (max-width: 991px) {
+    .sobre-socios .imgAnime {
+        display: none;
+    }
+}
+
+
+/* --- SOBRE / secao diferencial */
+.sobre-diferenciais .tp-about__img-wrapper .imgAnime:not(.imgAnime.bg) {
+    position: absolute;
+}
+.sobre-diferenciais .tp-about__img-wrapper .bg {
+    padding: 70px;
+}
+.sobre-diferenciais .tp-about__img-wrapper .anel {
+    width: 180px;
+    left: 10%;
+    top: 8%;
+}
+.sobre-diferenciais .tp-about__img-wrapper .bolaVerde {
+    width: 140px;
+    top: 20%;
+    left: 50%;
+}
+.sobre-diferenciais .tp-about__img-wrapper .bolaAmarela {
+    width: 100px;
+    right: 20%;
+    bottom: 15%;
+}
+.sobre-diferenciais .tp-about__img-wrapper .bolaAmarela2 {
+    filter: blur(5px);
+    width: 80px;
+    left: 30%;
+    bottom: 27%;
+}
+
+@media (max-width: 991px) {
+    .tp-about__img-wrapper {
+        display: none;
+    }
+}
+
+
+/* ///// SERVICOS */
+
+/* --- SERVICOS / secao softwares */
+.software-icon {
+    position: relative;
+    margin: 30px 30px 0;
+}
+
+.software-item .wrapper {
+    border: 1px solid #E9EBF1;
+    border-radius: 20px;
+    padding: 45px;
+    margin-bottom: 30px;
+    min-height: 360px;
+    overflow: hidden;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.software-title {
+    font-weight: normal;
+    font-size: 20px;
+
+    background-image: url(../img/logo-green-170_50.png);
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    background-size: 110px;
+}
+
+.software-icon .img {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+.software-icon .img:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    transform: rotate(50deg);
+}
+
+.software-icon img {
+    width: 26px;
+    position: relative;
+    z-index: 3;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.software-icon .img .bg,
+.software-icon .img .bg2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: calc(100% + 50px);
+    height: calc(100% + 50px);
+    border-radius: 20px;
+
+    transition: transform .2s;
+}
+
+.software-icon .img .bg {
+    z-index: 1;
+    transform: translate(-50%, -50%)
+               rotate(25deg);
+    background: var(--spliper-gradient-bl_ye-hor);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+.software-icon .img .bg2 {
+    z-index: 0;
+    transform: translate(-50%, -50%)
+               rotate(70deg);
+    background: linear-gradient(90deg, #f1f1f1 15%, #dbdbdb 85%);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.software-item:hover .software-icon .img .bg {
+    transform: translate(-50%, -50%) rotate(70deg);
+}
+.software-item:hover .software-icon .img .bg2 {
+    transform: translate(-50%, -50%) rotate(25deg);
+}
+
+@media (max-width: 1199px) {
+    .software-icon {
+        text-align: center;
+    }
+
+    .software-icon img {
+        transform: translate(-110%, -50%);
+    }
+}
+
+
+
+/* ///// BLOG */
+
+/* --- BLOG / secao  */
+.tp-blog-category span {
+    color: var(--spliper-cor-yellow);
+    border-color: var(--spliper-cor-green);
+}
+
+.blog-grid-slider-meta span.child-one {
+    background-color: transparent;
+    box-shadow: 1px 0 0 2px var(--spliper-cor-green);
+    color: var(--spliper-cor-yellow);
+}
+
+.tp-blog-author-info h5,
+.tp-blog-title-sm:hover {
+    color: var(--spliper-cor-green);
+}
+
+.portfolio.blog-grid-inner .tp-section-title {
+    font-family: var(--tp-ff-dm);
+    font-weight: normal;
+}
+
+.tp-blog-avata {
+    overflow: hidden;
+    border-radius: 100px;
+}
+
+.tp-blog-date span {
+    color: #000;
+}
+
+.portfolio-filter button.active,
+.portfolio-filter button.active:hover {
+    background-color: var(--spliper-cor-green);
+    border-color: var(--spliper-cor-green);
+    color: #fff;
+}
+
+.portfolio-filter button:hover {
+    color: var(--spliper-cor-green);
+    border-color: var(--spliper-cor-green);
+}
+
+.blog-grid-posts .tp-section-title {
+    font-weight: normal;
+}
+.blog-grid-posts .tp-section-title span {
+    display: block;
+}
+
+
+
+
+/* ///// CONTATO */
+
+/* --- CONTATO / secao barra-topo  */
+.contato-barra {
+    background-color: #fff;
+    border-radius: 200px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2),
+                0 0 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.contato-barra .row {
+    padding: 30px 40px;
+    align-items: center;
+}
+
+.contato-barra-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato-barra-inner a {
+    font-size: 16px;
+    line-height: 130%;
+    display: block;
+    padding-bottom: 5px;
+}
+.contato-barra-inner a:hover {
+    color: var(--spliper-cor-green);
+}
+
+@media (max-width: 991px) {
+    .contato-barra {
+        border-radius: 60px;
+    }
+    .contato-barra .row > div {
+        padding: 20px 0;
+    }
+}
+
+
+/* --- CONTATO / secao formulario  */
+.contact-form-area .tp-section-title {
+    font-weight: normal;
+    font-size: 36px;
+}
+.contact-form-area .tp-section-title span {
+    font-size: 50px;
+    display: block;
+}
+
+
+.horarios .tp-section-title {
+    font-family: var(--tp-ff-dm);
+    font-weight: normal;
+    font-size: 26px;
+    padding: 50px 0 0 0;
+}
+
+.horarios p {
+    font-family: var(--tp-ff-heading);
+    font-size: 18px;
+}
+
+
+/* --- CONTATO / secao faq */
+.tp-custom-accordion .accordion-items.tp-faq-active {
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.contato-faq .tpfadeLeft {
+    position: relative;
+}
+.imgAnima.chatPopup {
+    width: 260px;
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    animation: tptranslateY2 4s forwards infinite alternate;
+}
+
+@media (max-width: 991px) {
+    .imgAnima.chatPopup {
+        display: none;
+    }
+}
+
+
+/* ///// ANIMACOES */
+
+@keyframes bubbleFade-toLeft {
+    0% {
+        transform: translate(-10px, 10px) scale(1);
+    }
+    100% {
+        transform: translate(30px, 30px) scale(1.2);
+    }
+}
+@keyframes bubbleFade-toRight {
+    0% {
+        transform: translate(-20px, -30px) scale(1);
+    }
+    100% {
+        transform: translate(30px, 20px) scale(1.2);
+    }
 }
