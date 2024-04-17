@@ -255,6 +255,62 @@
 }
 
 
+/* --- para formularios */
+.postbox__comment-input .inputText,
+.sidebar__search input {
+    border-radius: 100px;
+}
+
+.postbox__comment-agree .form-check-input:checked {
+    background-color: var(--spliper-cor-green);
+}
+.postbox__comment-form .tp-btn-inner,
+.postbox__comment-form .submit-btn {
+    border-radius: 100px !important;
+    background-color: var(--spliper-cor-yellow);
+}
+
+.postbox__comment-input .textareaText {
+    border-radius: 30px;
+}
+
+.postbox__comment-input .inputText:focus,
+.postbox__comment-input .textareaText:focus,
+.sidebar__search input:focus {
+    border: none;
+    box-shadow: 0px 1px 2px 1px rgba(32, 33, 36, 0.06),
+                inset 0 0 0 2px var(--spliper-cor-green);
+}
+
+.postbox__comment-form .tp-btn-inner:hover,
+.postbox__comment-form .submit-btn:hover {
+    background-color: var(--spliper-cor-green);
+}
+
+.postbox__comment-input.input-file {
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 55px;
+    padding: 0 20px;
+    border-radius: 100px;
+    background-color: #fff;
+    box-shadow: 0px 1px 2px 1px rgba(32, 33, 36, 0.06),
+                inset 0 0 0 2px #b9b9b9;
+}
+.postbox__comment-input.input-file span {
+    display: inline-block;
+    line-height: 55px;
+}
+.postbox__comment-input.input-file input {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .01;
+}
 
 
 /* ///// HOME  */
@@ -330,6 +386,8 @@
     filter: blur(5px);
     left: 15%;
     bottom: 0;
+
+    animation: bubbleFade-bYlw 2s forwards infinite alternate;
 }
 
 
@@ -812,6 +870,9 @@
     background-repeat: no-repeat;
     background-size: 110px;
 }
+.software-title:hover {
+    color: var(--spliper-cor-yellow);
+}
 
 .software-icon .img {
     display: inline-block;
@@ -886,6 +947,22 @@
 }
 
 
+/* ///// SERVICOS-DETALHE */
+.servico__detalhe .container {
+    max-width: 1000px;
+}
+
+.servico__detalhe .postbox__details-img-box img {
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+@media (max-width: 767px) {
+    .postbox__details-img-box {
+        flex-direction: column;
+    }
+}
+
 
 /* ///// BLOG */
 
@@ -939,6 +1016,51 @@
     display: block;
 }
 
+
+/* ///// BLOG-DETALHE */
+
+/* --- BLOG / detalhado */
+.rc__post-title a:hover,
+.postbox__navigation-content h5:hover,
+.postbox__navigation-content a:hover span {
+    color: var(--spliper-cor-green);
+}
+.postbox__details-qoute-text span,
+.sidebar__widget ul li a:hover {
+    color: var(--spliper-cor-yellow);
+}
+
+.tagcloud a:hover,
+.postbox__details-author-social a:hover,
+.postbox__comment-reply a:hover {
+    background-color: var(--spliper-cor-green);
+}
+.postbox__details-qoute-text span::before,
+.postbox__details-checkmark ul li i {
+    background-color: var(--spliper-cor-yellow);
+}
+
+.tagcloud a:hover,
+.postbox__comment-reply a:hover {
+    border-color: var(--spliper-cor-green);
+}
+.postbox__details-qoute {
+    border-color: var(--spliper-cor-yellow);
+}
+
+.postbox__details-wrapper article .mb-20 {
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.postbox__navigation-img img {
+    max-width: 90px;
+}
+
+/* --- sidebar */
+.sidebar__widget {
+    border-color: #cececf;
+}
 
 
 
@@ -1031,7 +1153,91 @@
 }
 
 
+/* ///// CONTATO-TRABALHO */
+.contato__trabalho-info .tp-section-title {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.contato__trabalho-list {
+    list-style: none;
+}
+.contato__trabalho-list li {
+    position: relative;
+    padding-left: 30px;
+}
+.contato__trabalho-list li:not(:last-child) {
+    padding-bottom: 20px;
+}
+.contato__trabalho-list li:before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    box-shadow: inset 0 0 0 2px var(--spliper-cor-yellow);
+    border-radius: 100px;
+    position: absolute;
+    left: -40px;
+    top: -10px;
+}
+
+.contato__trabalho-info .row {
+    justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+    .contato__trabalho-info .row {
+        flex-direction: column;
+    }
+    .contato__trabalho-info .row > div {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+}
+
+/* --- formulario */
+.contato__trabalho-form .tp-section-title {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.postbox__comment-input .inputText,
+.postbox__comment-input .textareaText {
+    box-shadow: inset 0 0 0 2px #b9b9b9;
+}
+
+.contato__trabalho-form .postbox__btn-box {
+    text-align: center;
+}
+.contato__trabalho-form .submit-btn {
+    font-size: 20px;
+    background-color: var(--spliper-cor-green);
+    max-width: 600px;
+    border-radius: 100px;
+}
+.contato__trabalho-form .submit-btn:hover {
+    background-color: var(--spliper-cor-yellow);
+}
+
+@media (max-width: 767px) {
+    .contato__trabalho-form .col-6 {
+        width: 100%;
+    }
+}
+
+
+
+
 /* ///// ANIMACOES */
+@keyframes bubbleFade-bYlw {
+    0% {
+        transform: translate(10px, 10px) scale(1);
+        filter: blur(2px);
+    }
+    100% {
+        transform: translate(-30px, -30px) scale(1.2);
+        filter: blur(5px);
+    }
+}
 
 @keyframes bubbleFade-toLeft {
     0% {
@@ -1041,6 +1247,7 @@
         transform: translate(30px, 30px) scale(1.2);
     }
 }
+
 @keyframes bubbleFade-toRight {
     0% {
         transform: translate(-20px, -30px) scale(1);
