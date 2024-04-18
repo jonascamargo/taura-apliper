@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 98 94.79" style="enable-background:new 0 0 98 94.79;" xml:space="preserve">
+<style type="text/css">
+	.st0{enable-background:new    ;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:url(#SVGID_00000005245474703613828370000008212963893398392985_);}
+	.st3{fill:url(#SVGID_00000158000414627215938300000006608195594643519400_);}
+	.st4{fill:#E8A85F;}
+</style>
+<g>
+	<g>
+		<g class="st0">
+			<g>
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="51.7173" x2="36.5088" y2="51.7173">
+					<stop  offset="0" style="stop-color:#E8A85F"/>
+					<stop  offset="0.5487" style="stop-color:#E49B4B"/>
+					<stop  offset="1" style="stop-color:#E19440"/>
+				</linearGradient>
+				<polygon class="st1" points="36.39,94.79 0,75 0.12,8.64 36.51,28.44 				"/>
+			</g>
+			<g>
+				
+					<linearGradient id="SVGID_00000027581006221062076760000015699615338025703591_" gradientUnits="userSpaceOnUse" x1="0.1232" y1="14.2177" x2="98" y2="14.2177">
+					<stop  offset="0" style="stop-color:#D5992F"/>
+					<stop  offset="0.7969" style="stop-color:#CB8E2E"/>
+					<stop  offset="1" style="stop-color:#C78A2E"/>
+				</linearGradient>
+				<polygon style="fill:url(#SVGID_00000027581006221062076760000015699615338025703591_);" points="36.51,28.44 0.12,8.64 
+					61.61,0 98,19.79 				"/>
+			</g>
+			<g>
+				
+					<linearGradient id="SVGID_00000104687868678700182340000017751489512540999850_" gradientUnits="userSpaceOnUse" x1="36.3856" y1="57.2929" x2="98" y2="57.2929">
+					<stop  offset="0" style="stop-color:#E8A85F"/>
+					<stop  offset="0.3204" style="stop-color:#E4A454"/>
+					<stop  offset="0.8865" style="stop-color:#D89B36"/>
+					<stop  offset="1" style="stop-color:#D5992F"/>
+				</linearGradient>
+				<polygon style="fill:url(#SVGID_00000104687868678700182340000017751489512540999850_);" points="98,19.79 97.88,86.15 
+					36.39,94.79 36.51,28.44 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<path class="st4" d="M36.39,94.79L36.17,78.2l-0.11-16.59l-0.04-33.18l0-0.43l0.43-0.06l15.38-2.12
+			c5.13-0.7,10.25-1.42,15.38-2.09l15.39-2.02L98,19.79l-15.34,2.4l-15.35,2.3c-5.12,0.78-10.24,1.5-15.36,2.23l-15.37,2.2L37,28.44
+			l-0.16,33.18L36.67,78.2L36.39,94.79z"/>
+	</g>
+	<g>
+		<polygon class="st4" points="36.27,28.87 0.12,8.64 36.75,28 		"/>
+	</g>
+</g>
+</svg>
